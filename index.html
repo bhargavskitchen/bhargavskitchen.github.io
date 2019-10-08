@@ -1,157 +1,387 @@
-<!DOCTYPE HTML>
-<!--
-	Linear by TEMPLATED
-    templated.co @templatedco
-    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
-<html>
-	<head>
-		<title>Linear by TEMPLATED</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500,900' rel='stylesheet' type='text/css'>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-panels.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel-noscript.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-desktop.css" />
-		</noscript>
-	</head>
-	<body class="homepage">
+<!DOCTYPE html>
+<html lang="en">
 
-	<!-- Header -->
-		<div id="header">
-			<div id="nav-wrapper"> 
-				<!-- Nav -->
-				<nav id="nav">
-					<ul>
-						<li class="active"><a href="index.html">Homepage</a></li>
-						<li><a href="left-sidebar.html">Left Sidebar</a></li>
-						<li><a href="right-sidebar.html">Right Sidebar</a></li>
-						<li><a href="no-sidebar.html">No Sidebar</a></li>
-					</ul>
-				</nav>
-			</div>
-			<div class="container"> 
-				
-				<!-- Logo -->
-				<div id="logo">
-					<h1><a href="#">Linear</a></h1>
-					<span class="tag">By TEMPLATED</span>
-				</div>
-			</div>
-		</div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Delicious</title>
+  <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
+  <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
 
-	<!-- Featured -->
-		<div id="featured">
-			<div class="container">
-				<header>
-					<h2>Welcome to Bhargav's Kitchen</h2>
-				</header>
-				<p>This is <strong>Linear</strong>, a responsive HTML5 site template freebie by <a href="http://templated.co">TEMPLATED</a>. Released for free under the <a href="http://templated.co/license">Creative Commons Attribution</a> license, so use it for whatever (personal or commercial) &ndash; just give us credit! Check out more of our stuff at <a href="http://templated.co">our site</a> or follow us on <a href="http://twitter.com/templatedco">Twitter</a>.</p>
-				<hr />
-				<div class="row">
-					<section class="4u">
-						<span class="pennant"><span class="fa fa-briefcase"></span></span>
-						<h3>Maecenas luctus lectus</h3>
-						<p>Curabitur sit amet nulla. Nam in massa. Sed vel tellus. Curabitur sem urna, consequat vel, suscipit in, mattis placerat, nulla. Sed ac leo.</p>
-						<a href="#" class="button button-style1">Read More</a>
-					</section>
-					<section class="4u">
-						<span class="pennant"><span class="fa fa-lock"></span></span>
-						<h3>Maecenas luctus lectus</h3>
-						<p>Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis at, ultricies quis, justo. Donec magna.</p>
-						<a href="#" class="button button-style1">Read More</a>
-					</section>
-					<section class="4u">
-						<span class="pennant"><span class="fa fa-globe"></span></span>
-						<h3>Maecenas luctus lectus</h3>
-						<p>Curabitur sit amet nulla. Nam in massa. Sed vel tellus. Curabitur sem urna, consequat vel, suscipit in, mattis placerat, nulla. Sed ac leo.</p>
-						<a href="#" class="button button-style1">Read More</a>
-					</section>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- =======================================================
+    Theme Name: Delicious
+    Theme URL: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
 
-				</div>
-			</div>
-		</div>
+<body>
+  <!--banner-->
+  <section id="banner">
+    <div class="bg-color">
+      <header id="header">
+        <div class="container">
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#about">About</a>
+            <a href="#event">Event</a>
+            <a href="#menu-list">Menu</a>
+            <a href="#contact">Book a table</a>
+          </div>
+          <!-- Use any element to open the sidenav -->
+          <span onclick="openNav()" class="pull-right menu-icon">☰</span>
+        </div>
+      </header>
+      <div class="container">
+        <div class="row">
+          <div class="inner text-center">
+            <h1 class="logo-name">Bhargav's Kitchen</h1>
+            <h2>Fast and good food!</h2>
+           <!--  <p>Specialized in Indian Cuisine!!</p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / banner -->
+  <!--about-->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center marb-35">
+          <h1 class="header-h">Quality South Indian and Maharastrian food </h1>
+          <p class="header-p">Our experienced cooks prepare food with fresh ingredients and pride. </p>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div class="col-md-6 col-sm-6">
+            <div class="about-info">
+              <h2 class="heading">We are placed conveniently on Mumbai-Goa highway</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero impedit inventore culpa vero accusamus in nostrum dignissimos modi, molestiae. Autem iusto esse necessitatibus ex corporis earum quaerat voluptates quibusdam dicta!</p>
+              <div class="details-list">
+                <ul>
+                  <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                  <li><i class="fa fa-check"></i>Quisque finibus eu lorem quis elementum</li>
+                  <li><i class="fa fa-check"></i>Vivamus accumsan porttitor justo sed </li>
+                  <li><i class="fa fa-check"></i>Curabitur at massa id tortor fermentum luctus</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <!-- <img src="img/res01.jpg" alt="" class="img-responsive"> -->
 
-	<!-- Main -->
-		<div id="main">
-			<div id="content" class="container">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239.23908015157775!2d73.68862722690476!3d16.382860308996623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc03b12a8e58a6f%3A0xf420f6c74ad2cbb5!2sNandgaon%20S.T%20Stand!5e0!3m2!1sen!2sin!4v1570524459944!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
-				<div class="row">
-					<section class="6u">
-						<a href="#" class="image full"><img src="images/pic01.jpg" alt=""></a>
-						<header>
-							<h2>Mauris vulputate dolor</h2>
-						</header>
-						<p>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum.</p>
-					</section>				
-					<section class="6u">
-						<a href="#" class="image full"><img src="images/pic02.jpg" alt=""></a>
-						<header>
-							<h2>Mauris vulputate dolor</h2>
-						</header>
-						<p>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum.</p>
-					</section>				
-				</div>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+  </section>
+  <!--/about-->
+  <!-- event -->
+  <section id="event">
+    <div class="bg-color" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center" style="padding:60px;">
+            <h1 class="header-h">Testimonials</h1>
+            <p class="header-p">Our customers love us</p>
+          </div>
+          <div class="col-md-12" style="padding-bottom:60px;">
+            <div class="item active left">
+              <div class="col-md-6 col-sm-6 left-images">
+                <img src="img/res02.jpg" class="img-responsive">
+              </div>
+              <div class="col-md-6 col-sm-6 details-text">
+                <div class="content-holder">
+                  <h2>Joyful party</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore eos suscipit earum voluptas aliquam recusandae, quae iure adipisci, inventore quia, quos delectus quaerat praesentium id expedita nihil illo accusantium, tempora.</p>
+                  <address>
+                              <strong>Place: </strong>
+                              1612 Collins Str, Victoria 8007
+                              <br>
+                              <strong>Time: </strong>
+                              07:30pm
+                            </address>
+                  <a class="btn btn-imfo btn-read-more" href="events-details.html">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ event -->
+  <!-- menu -->
+  <section id="menu-list" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center marb-35">
+          <h1 class="header-h">Menu</h1>
+          <p class="header-p">&quot;Secret of good mood is good food&quot;</p>
+        </div>
 
-				<div class="row">
-					<section class="6u">
-						<a href="#" class="image full"><img src="images/pic03.jpg" alt=""></a>
-						<header>
-							<h2>Mauris vulputate dolor</h2>
-						</header>
-						<p>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum.</p>
-					</section>				
-					<section class="6u">
-						<a href="#" class="image full"><img src="images/pic04.jpg" alt=""></a>
-						<header>
-							<h2>Mauris vulputate dolor</h2>
-						</header>
-						<p>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum.</p>
-					</section>				
-				</div>
-			
-			</div>
-		</div>
+        <!-- <div class="col-md-12  text-center" id="menu-flters">
+          <ul>
+            <li><a class="filter active" data-filter=".menu-restaurant">Show All</a></li>
+            <li><a class="filter" data-filter=".breakfast">Breakfast</a></li>
+            <li><a class="filter" data-filter=".lunch">Lunch</a></li>
+            <li><a class="filter" data-filter=".dinner">Dinner</a></li>
+          </ul>
+        </div> -->
 
-	<!-- Tweet -->
-		<div id="tweet">
-			<div class="container">
-				<section>
-					<blockquote>&ldquo;In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat.&rdquo;</blockquote>
-				</section>
-			</div>
-		</div>
+        <div id="menu-wrapper">
 
-	<!-- Footer -->
-		<div id="footer">
-			<div class="container">
-				<section>
-					<header>
-						<h2>Get in touch</h2>
-						<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
-					</header>
-					<ul class="contact">
-						<li><a href="#" class="fa fa-twitter"><span>Twitter</span></a></li>
-						<li class="active"><a href="#" class="fa fa-facebook"><span>Facebook</span></a></li>
-						<li><a href="#" class="fa fa-dribbble"><span>Pinterest</span></a></li>
-						<li><a href="#" class="fa fa-tumblr"><span>Google+</span></a></li>
-					</ul>
-				</section>
-			</div>
-		</div>
+          <div class="breakfast menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
 
-	<!-- Copyright -->
-		<div id="copyright">
-			<div class="container">
-				Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
-			</div>
-		</div>
+          <div class="breakfast menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
 
-	</body>
+          <div class="breakfast menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+
+          <div class="breakfast menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+
+          <div class="lunch menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+
+          <div class="lunch menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+
+          <div class="lunch menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+
+          <div class="lunch menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+
+          <div class="lunch menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+
+          <div class="dinner menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+
+          <div class="dinner menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+
+          <div class="dinner menu-restaurant">
+            <span class="clearfix">
+              <a class="menu-title" href="#" data-meal-img="assets/img/restaurant/rib.jpg">Food Item Name</a>
+              <span style="left: 166px; right: 44px;" class="menu-line"></span>
+              <span class="menu-price">$20.99</span>
+            </span>
+            <span class="menu-subtitle">Neque porro quisquam est qui dolorem</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--/ menu -->
+  <!-- contact -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1 class="header-h">We will be happy to answer all your queries and complaints.</h1>
+          <p class="header-p">We welcome comments and feedback about your dining experience and are happy to answer any questions you may have about our establishment, our menu, hosting your private party or other matters.. </p>
+        </div>
+      </div>
+      <div class="row msg-row">
+        <div class="col-md-4 col-sm-4 mr-15">
+          <div class="media-2">
+            <div class="media-left">
+              <div class="contact-phone bg-1 text-center"><span class="phone-in-talk fa fa-phone"></span></div>
+            </div>
+            <div class="media-body">
+              <h4 class="dark-blue regular">Phone Numbers</h4>
+              <p class="light-blue regular alt-p">9082638561 - <span class="contacts-sp">Mobile Number</span></p>
+            </div>
+          </div>
+          <div class="media-2">
+            <div class="media-left">
+              <div class="contact-email bg-14 text-center"><span class="hour-icon fa fa-clock-o"></span></div>
+            </div>
+            <div class="media-body">
+              <h4 class="dark-blue regular">Opening Hours</h4>
+              <p class="light-blue regular alt-p"> 07.00 A.M - 9:00 P.M</p>
+              <!-- <p class="light-blue regular alt-p">
+                Friday and Sunday 08:00 - 03.00
+              </p> -->
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-md-8 col-sm-8">
+          <form action="" method="post" role="form" class="contactForm">
+            <div id="sendmessage">Your booking request has been sent. Thank you!</div>
+            <div id="errormessage"></div>
+            <div class="col-md-6 col-sm-6 contact-form pad-form">
+              <div class="form-group label-floating is-empty">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+
+            </div>
+            <div class="col-md-6 col-sm-6 contact-form">
+              <div class="form-group">
+                <input type="date" class="form-control label-floating is-empty" name="date" id="date" placeholder="Date" data-rule="required" data-msg="This field is required" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6 contact-form pad-form">
+              <div class="form-group">
+                <input type="email" class="form-control label-floating is-empty" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6 contact-form">
+              <div class="form-group">
+                <input type="time" class="form-control label-floating is-empty" name="time" id="time" placeholder="Time" data-rule="required" data-msg="This field is required" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6 contact-form">
+              <div class="form-group">
+                <input type="text" class="form-control label-floating is-empty" name="phone" id="phone" placeholder="Phone" data-rule="required" data-msg="This field is required" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6 contact-form">
+              <div class="form-group">
+                <input type="text" class="form-control label-floating is-empty" name="people" id="people" placeholder="People" data-rule="required" data-msg="This field is required" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="col-md-12 contact-form">
+              <div class="form-group label-floating is-empty">
+                <textarea class="form-control" name="message" rows="5" rows="3" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validation"></div>
+              </div>
+
+            </div>
+            <div class="col-md-12 btnpad">
+              <div class="contacts-btn-pad">
+                <button class="contacts-btn">Book Table</button>
+              </div>
+            </div>
+          </form>
+        </div> -->
+      </div>
+    </div>
+  </section>
+  <!-- / contact -->
+  <!-- footer -->
+  <footer class="footer text-center">
+    <div class="footer-top">
+      <div class="row">
+        <div class="col-md-offset-3 col-md-6 text-center">
+          <div class="widget">
+            <h4 class="widget-title">Bhargav's Kitchen</h4>
+            <address>Nandgaon Titha,<br>Off National Highway,<br> Maharashtra 416602</address>
+           <!--  <div class="social-list">
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </div> -->
+            <p class="copyright clear-float">
+              © Bhargav's Kitchen. All Rights Reserved
+              <!-- <div class="credits">
+                
+                  All the links in the footer should remain intact.
+                  You can delete the links only if you purchased the pro version.
+                  Licensing information: https://bootstrapmade.com/license/
+                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Delicious
+                
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              </div> -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- / footer -->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+</body>
+
 </html>
